@@ -18,13 +18,14 @@ More of a convenience than an intellectual break-through
 ## Sample 
 <pre>
 <code>
+import BenchMark.Measure;
+
 Measure object=new Measure();
+
 object.start();
-/*
-Do something
 object.pause();//Optional
 object.resume();//Optional
-*/
+
 System.out.println(object.stop()); //Time Taken in Milliseconds
 </code>
 </pre>
