@@ -15,3 +15,16 @@ More of a convenience than an intellectual break-through
 2) void resume() throws NullPointerException if object is dead/not yet started.
 3) long stop() throws NullPointerException if object is dead/not yet started.
 4) void start() throws Exception if object is already running, and not paused or stopped.
+## Sample 
+<pre>
+<code>
+Measure object=new Measure();
+object.start();
+/*
+Do something
+object.pause();//Optional
+object.resume();//Optional
+*/
+System.out.println(object.stop()); //Time Taken in Milliseconds
+</code>
+</pre>
