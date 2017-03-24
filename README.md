@@ -1,5 +1,5 @@
 # BenchMark
-
+More of a convenience than an intellectual break-through
 ## Available constructors:
 1) Measure() -- Initializes the object
 ## Available methods:
